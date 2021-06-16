@@ -1,59 +1,197 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Add image here
 
-Welcome USER_NAME,
+## User Experience (UX)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+-   ### User stories
 
-## Gitpod Reminders
+    -   #### First Time Visitor Goals
+        
+        1. As a First time visitor, I want to quickly get an idea about the content of the site.
+        2. As a First time visitor, I want the navigation between the different parts of the site to be easy and self-explanatory. I.E. - a link named "Gallery" should lead to some kind of gallery.
+        3. As a First time visitor I want to be able to quickly navigate through the content on the site to see what content might be for me.
+       
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+    -   #### Returning Visitor Goals
 
-`python3 -m http.server`
+        1. As a Returning visitor, I want to easily find links to more in-depth discussions of the ruleset.
+        2. As a Returning visitor, I want to easily find links to Horde of the Things communities.
+       
+    -   #### Frequent User Goals
+        1. As a Frequent user, I want to see if there is any new content.
+        2. As a Frequent user, I want to easily navigate to links to communities.
+       
+-   ### Design
+    -   #### Color Scheme
+        -   The two main colours used are Black and Purple, to resonate with the color scheme of the rulebook.
+    -   #### Typography
+        -   As main font I have chosen Noto Sans, with Sans Serif as a fallback font family. Noto Sans is clean and easy to read. Quotations will be in Pattaya, a more playful font that gives the impression of handwriting.
+    -   #### Imagery
+        -   Miniature wargaming is in large part about the visual aspect. The Hero image is chosen to give the impression of joining a gaming table.
 
-A blue button should appear to click: _Make Public_,
+*   ### Wireframes
 
-Another blue button should appear to click: _Open Browser_.
+    -   [Wireframe collection](wireframes.md)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+## Features
 
-Another blue button should appear to click: _Open Browser_.
+-   Responsive on all device sizes
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+-   Interactive elements
 
-To log into the Heroku toolbelt CLI:
+## Technologies Used
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Languages Used
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-## Updates Since The Instructional Video
+### Frameworks, Libraries & Programs Used
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+1.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Noto Sans' and 'Pattaya' fonts into the style.css file which is used on all pages throughout the project.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Paint3D:](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99)
+    - Paint3D was used to resize and edit photos for the website.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Testing
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Testing User Stories from User Experience (UX) Section
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+-   #### First Time Visitor Goals
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    1. As a First time visitor, I want to quickly get an idea about the sites content.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+        1. The main focus on the index page is the Hero image that immediately conveys the idea of a miniature wargame.
+        2. Clearly visible in the upper left corner is the Hordes of the Things heading, showing what game the site covers.
+        3. To improve the visibility of the images (miniatures, after all are small) on smaller devices, we cut down the number of columns in the gallery section as the screen size becomes smaller.
+     
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    2. As a First time visitor, I want the navigation between the different parts of the site to be easy and self-explanatory. I.E. - a link named "Gallery" should lead to the gallery.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+        1. At the top of the Hero image is the navigation bar, with the Home, About, Gallery, Community and Contact links.
+       
 
----
+     3. As a First time visitor I want to be able to quickly navigate through the content on the site to see what content might be for me.
+        1. The navigation bar is the same on each page, making it easy to move from page to page, without having to move back or forth.
+        2. The navigation bar is always on top of the reader, so the user does not have to scroll to get back to it.
+        
 
-Happy coding!
+-   #### Returning Visitor Goals
+
+     1. As a Returning visitor, I want to easily find links to more in-depth discussions of the ruleset.
+       
+        1. These are easily reachable via the 'Community' tab.
+     
+
+    2. As a Returning visitor, I want to easily find links to Horde of the Things communities.
+
+        1. These are easily reachable via the 'Community' tab.
+
+
+  
+-   #### Frequent User Goals
+
+    1. As a Frequent user, I want to see if there is any new content.
+      
+        1. Not sure how to solve this best.
+
+     2. As a Frequent user, I want to easily navigate to links to communities.
+
+        1. The 'Communities' tab is easily reachable in the navigation bar.
+
+ 
+### Further Testing
+
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Known Bugs
+
+-   
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+## Credits
+
+### Code
+
+-   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+-   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+
+### Content
+
+-   All content was written by the developer.
+
+
+### Media
+
+-   All Images were created by the developer.
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.
