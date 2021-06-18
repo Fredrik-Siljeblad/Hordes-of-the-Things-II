@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Pattaya&family=Playfair+Display:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    color: #ee97ea;
+    background-color: black;
+}
+
+.header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.logo {
+    color: #fff;
+    float: left;
+    font-size: 200%;
+    margin: 0 0 0 50px; /* to create gap left of logo */
+    font-family: "Playfair Display", sans-serif;
+}
+* navigation links */
+
+.menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+.logo, #menu {
+    line-height: 75px;
+}
+
+.menu li {
+    float: right; /* To put the menu  in line to the right */
+    list-style-type: none; /* No numbering or dots */
+    margin: 0 15px 0; /* To put distance between the links */
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #ee97ea; /* Underline when hovered over */
+}
+
+.active{
+    border-bottom: 1px solid #ee97ea; /* Underline for link to active page */
+}
